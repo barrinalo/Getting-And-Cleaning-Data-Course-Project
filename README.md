@@ -10,6 +10,7 @@ David Chong Tian Wei
 	*	This file contains data from both the "train" and "test" folders in the UCI HAR Dataset (Folder).  It has combined the activity description with subject and features.
 *	run_analysis.R
 	*	This is the script which creates "average_data.txt" and "combined_data.txt".
+
 ##Notes on how run_analysis.R works
 1.	Reads in "activity_labels.txt" and "features.txt" for later use
 2.	Removes "(" and ")" from the features that were imported previously
